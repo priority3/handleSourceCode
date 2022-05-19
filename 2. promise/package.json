@@ -1,0 +1,9 @@
+{
+	"main": "index.js",
+	"scripts": {
+		"test":"promises-aplus-tests ./index.js --grep 2.3.3 --invert"
+	},
+	"dependencies": {
+		"promises-aplus-tests": "^2.1.2"
+	}
+}
