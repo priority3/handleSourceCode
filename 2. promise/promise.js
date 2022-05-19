@@ -102,9 +102,12 @@
 
       return newPromise
     }
+<<<<<<< HEAD
     catch(onRejected) {
       return this.then(undefined, onRejected)
     }
+=======
+>>>>>>> c453eefed522599c4859239667cc8cbe39fe495d
   }
   return myPromise
 })
